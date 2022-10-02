@@ -8,202 +8,326 @@
     <title>Личный сайт</title>
 </head>
 <body>
-        
-    <div class="block" id="header">
-        <div class="container">
-            <div class="header">
-                <nav class="header-menu">
-                    <ul class="menu-list">
-                        <li class="menu-item">
-                            <a class="menu-link" href="#about-me">Обо мне</a>
-                        </li>
-                        <li class="menu-item">
-                            <a class="menu-link" href="#contacts">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
+    
+    <header class="header" id="header">
 
-                <div class="header-logo">
-                    <img src="/assets/img/logo.png" alt="Логотип" class="logo">
-                </div>
+        <div class="header__container">
 
-                <div class="header-contacts">
-                    <ul class="contacts-list">
-                        <li class="contacts-item">
-                            <a href="https://github.com/otisnth" class="contacts-link">
-                                <img src="/assets/img/github.png" alt="GITHub" class="contacts-icon">
-                            </a>
-                        </li>
-                        <li class="contacts-item">
-                            <a href="https://t.me/otisnth" class="contacts-link">
-                                <img src="/assets/img/telegram.png" alt="TG" class="contacts-icon">
-                            </a>
-                        </li>
-                        <li class="contacts-item">
-                            <a href="https://vk.com/otisnth" class="contacts-link">
-                                <img src="/assets/img/vk.png" alt="VK" class="contacts-icon">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <nav class="header__menu menu">
+
+                <ul class="menu__list">
+
+                    <li class="menu__item">
+                        <a class="menu__link" href="#about-me">Обо мне</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a class="menu__link" href="#contacts">Контакты</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <div class="header__logo">
+                <img src="/assets/img/logo.png" alt="Логотип" class="logo">
             </div>
+
+            <div class="header__links">
+
+                <ul class="header__links-list">
+
+                    <li class="header__links-item">
+                        <a href="https://github.com/otisnth" class="header__links-link">
+                            <img src="/assets/img/github.png" alt="GITHub" class="header__links-icon">
+                        </a>
+                    </li>
+
+                    <li class="header__links-item">
+                        <a href="https://t.me/otisnth" class="header__links-link">
+                            <img src="/assets/img/telegram.png" alt="TG" class="header__links-icon">
+                        </a>
+                    </li>
+
+                    <li class="header__links-item">
+                        <a href="https://vk.com/otisnth" class="header__links-link">
+                            <img src="/assets/img/vk.png" alt="VK" class="header__links-icon">
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
         </div>
 
+    </header>
+
+
+    <div class="block">
+
         <div class="container">
-            <div class="block-start">
-                <div class="block-start__info">
+
+            <div class="main-section">
+
+                <div class="main-section__info">
+
                     <div class="info">
-                        <p class="info-speciality">
+
+                        <p class="info__speciality">
                             ИНЖЕНЕР-программист
                         </p>
 
-                        <h1 class="info-name">
+                        <h1 class="info__name">
                             Долгих Дмитрий
                         </h1>
 
-                        <p class="info-text">
+                        <p class="info__text">
                             Рад видеть вас на своем сайте! Я студент группы ПИ-20-1. Учусь хорошо и пробую себя в различных сферах программирования, но кроме этого увлекаюсь электроникой и даже умею водить легковой автомобиль.
                         </p>
                         
                     </div>
-                    <a href="#about-me" class="info-down">
+
+                    <a href="#about-me" class="info__down">
                         <img class="info-down__img" src="/assets/img/info-down.png" alt="Down">
                     </a>
 
                 </div>
 
-                <img src="/assets/img/photo1.png" class="block-start__img" alt="Фото">
+                <img src="/assets/img/photo1.png" class="main-section__img" alt="Фото">
                 
             </div>
+
         </div>
+
     </div>
+
     
     <div class="block" id="about-me">
+
         <div class="container">
-            <div class="block-about">
-                <div class="block-about__img">
+
+            <div class="about">
+
+                <div class="about__img">
                     <img src="/assets/img/photo2.png" alt="Фото2">
                 </div>
 
-                <div class="block-about__info">
+                <div class="about__info">
+
                     <div class="info">
-                        <h2 class="block-title block-about__title">обо мне</h2>
-                        <p class="info-text">Я учусь на 3 курсе по специальности “Разработка программного обеспечения” в ЛГТУ. Интересуюсь разработкой web-приложений и математическим программированием. Умею работать в команде, люблю хорошую музыку и пиццу, а еще говорю на французском.Меня интересует все: я стараюсь постоянно развиваться и открывать для себя новые грани моей профессии... Могу назвать себя счастливым человеком, ведь мне готовы платить за то, что я занимаюсь любимым делом.</p>
+
+                        <h2 class="block__title about__title">обо мне</h2>
+
+                        <p class="info__text">Я учусь на 3 курсе по специальности “Разработка программного обеспечения” в ЛГТУ. Интересуюсь разработкой web-приложений и математическим программированием. Умею работать в команде, люблю хорошую музыку и пиццу, а еще говорю на французском.Меня интересует все: я стараюсь постоянно развиваться и открывать для себя новые грани моей профессии... Могу назвать себя счастливым человеком, ведь мне готовы платить за то, что я занимаюсь любимым делом.</p>
+
                     </div>
+
                     <div class="statistics">
-                        <div class="statistics-item">
-                            <span class="statistics-item__count">30+</span>
-                            <p class="statistics-item__text">завершенных лабораторных работ</p>
+
+                        <div class="statistics__container">
+
+                            <div class="statistics__item">
+    
+                                <span class="statistics__item-count counter" data-target="100" delay="500">0</span>
+    
+                                <p class="statistics__item-text">завершенных лабораторных работ</p>
+    
+                            </div>
+    
+                            <div class="statistics__item">
+    
+                                <span class="statistics__item-count">3</span>
+    
+                                <p class="statistics__item-text">курс Программной инженерии</p>
+    
+                            </div>
+    
+                            <div class="statistics__item">
+    
+                                <span class="statistics__item-count count counter" data-target="25" delay="1000">0</span>
+    
+                                <p class="statistics__item-text">довольных преподавателей</p>
+    
+                            </div>
+    
                         </div>
-                        <div class="statistics-item">
-                            <span class="statistics-item__count">3</span>
-                            <p class="statistics-item__text">курс Программной инженерии</p>
-                        </div>
-                        <div class="statistics-item">
-                            <span class="statistics-item__count">15+</span>
-                            <p class="statistics-item__text">довольных преподавателей</p>
-                        </div>
+
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
 
+
     <div class="block">
+
         <div class="container">
-            <div class="block-skills">
-                <div class="block-skills__info">
+
+            <div class="skills">
+
+                <div class="skills__info">
+
                     <div class="info">
-                        <h2 class="block-title block-skills__title">Мои навыки</h2>
-                        <p class="info-text">Обучаясь на кафедре АСУ, я узнал много всего и теперь могу писать desktop-прилложения на C++ и Windows Form с применением Windows API, моделировать работу электричесикх схем в Proteus Professional 8, разрабатывать web-приложения на HTML+CSS+JS. Еще мне удалось попробовать себя в Java!
+
+                        <h2 class="block__title skills__title">Мои навыки</h2>
+
+                        <p class="info__text">Обучаясь на кафедре АСУ, я узнал много всего и теперь могу писать desktop-прилложения на C++ и Windows Form с применением Windows API, моделировать работу электричесикх схем в Proteus Professional 8, разрабатывать web-приложения на HTML+CSS+JS. Еще мне удалось попробовать себя в Java!
                             Я знаком со структурами данных и базовыми алгоритмами, Git, умею применять библиотеки для C++ и работать с stl-контейнерами.
                             Прямо сейчас я изучаю PHP и базы данных, чтобы быть еще мощнее и круче!</p>
+
                     </div>
+
                 </div>
 
-                <div class="block-skills__skills">
-                    <div class="skills">
-                        <div class="skills-item">
-                            <div class="skills-item__circle skills-item__circle_one">С / С++</div>
-                        </div>
-                        <div class="skills-item">
-                            <div class="skills-item__circle skills-item__circle_three">Figma <br> Photoshop</div>
-                        </div>
-                        <div class="skills-item">
-                            <div class="skills-item__circle skills-item__circle_two">HTML <br> CSS <br> JS</div>
-                        </div>
-                        <div class="skills-item">
-                            <div class="skills-item__circle skills-item__circle_four">Proteus <br> Professional</div>
-                        </div>
+                <div class="skills__container">
+
+                    <div class="skills__item-container">
+
+                        <div class="skills__item skills__item_blue">С / С++</div>
+
                     </div>
+
+                    <div class="skills__item-container">
+
+                        <div class="skills__item skills__item_peach">Figma <br> Photoshop</div>
+
+                    </div>
+
+                    <div class="skills__item-container">
+
+                        <div class="skills__item skills__item_pink">HTML <br> CSS <br> JS</div>
+
+                    </div>
+
+                    <div class="skills__item-container">
+
+                        <div class="skills__item skills__item_lime">Proteus <br> Professional</div>
+
+                    </div>
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
+
 
     <div class="block">
+
         <div class="container">
-            <div class="block-credo">
-                <h2 class="block-title block-credo__title">Мое кредо</h2>
-                <div class="block-credo__info">
-                    <img class="block-credo__header" alt="запятые" src="/assets/img/credo-header.png">
-                    <p class="block-credo__text">Программирование сегодня — это гонка разработчиков программ, стремящихся писать программы больше и с лучшей идиотоустойчивостью, и вселенной, которая пытается создавать больших и лучших идиотов. Пока вселенная побеждает.</p>
-                    <p class="block-credo__sign">Rick Cook</p>
+
+            <div class="credo">
+
+                <h2 class="block__title credo__title">Мое кредо</h2>
+
+                <div class="credo__info">
+
+                    <img class="credo__header" alt="запятые" src="/assets/img/credo-header.png">
+
+                    <p class="credo__text">Программирование сегодня — это гонка разработчиков программ, стремящихся писать программы больше и с лучшей идиотоустойчивостью, и вселенной, которая пытается создавать больших и лучших идиотов. Пока вселенная побеждает.</p>
+
+                    <p class="credo__sign">Rick Cook</p>
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
+
 
     <div class="block" id="contacts">
+
         <div class="container">
-            <div class="block-contacts">
-                <h2 class="block-title block-contacts__title">контакты</h2>
-                <div class="block-contacts__info">
-                    <ul class="block-contacts__list">
-                        <li class="block-contacts__item">
-                            <span class="block-contacts__item-type">Phone</span>
-                            <a href="tel:+79372383833" class="block-contacts__item-link">+7 (937)-238-38-33</a>
+
+            <div class="contacts">
+
+                <h2 class="block__title contacts__title">контакты</h2>
+
+                <div class="contacts__info">
+
+                    <ul class="contacts__list">
+
+                        <li class="contacts__item">
+
+                            <span class="contacts__item-type">Phone</span>
+
+                            <a href="tel:+79372383833" class="contacts__item-link">+7 (937)-238-38-33</a>
+
                         </li>
 
-                        <li class="block-contacts__item">
-                            <span class="block-contacts__item-type">Telegram</span>
-                            <a href="https://t.me/otisnth" class="block-contacts__item-link">@otisnth</a>
+                        <li class="contacts__item">
+
+                            <span class="contacts__item-type">Telegram</span>
+
+                            <a href="https://t.me/otisnth" class="contacts__item-link">@otisnth</a>
+
                         </li>
 
-                        <li class="block-contacts__item">
-                            <span class="block-contacts__item-type">GIT</span>
-                            <a href="https://github.com/otisnth" class="block-contacts__item-link">@otisnth</a>
+                        <li class="contacts__item">
+
+                            <span class="contacts__item-type">GIT</span>
+
+                            <a href="https://github.com/otisnth" class="contacts__item-link">@otisnth</a>
+
                         </li>
 
-                        <li class="block-contacts__item">
-                            <span class="block-contacts__item-type">Mail</span>
-                            <a href="mailto:otisnth@gmail.com" class="block-contacts__item-link">otisnth@gmail.com</a>
+                        <li class="contacts__item">
+
+                            <span class="contacts__item-type">Mail</span>
+
+                            <a href="mailto:otisnth@gmail.com" class="contacts__item-link">otisnth@gmail.com</a>
+
                         </li>
 
-                        <li class="block-contacts__item">
-                            <span class="block-contacts__item-type">vk</span>
-                            <a href="https://vk.com/otisnth" class="block-contacts__item-link">@otisnth</a>
+                        <li class="contacts__item">
+
+                            <span class="contacts__item-type">vk</span>
+
+                            <a href="https://vk.com/otisnth" class="contacts__item-link">@otisnth</a>
+
                         </li>
+
                     </ul>
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
 
-    <footer>
+
+    <footer class="footer">
+
         <div class="container">
-            <div class="footer">
-                <img src="/assets/img/logo-footer.png" alt="Логотип" class="footer-logo">
+
+            <div class="footer__container">
+
+                <img src="/assets/img/logo-footer.png" alt="Логотип" class="footer__logo">
                 
-                <a class="footer-up" href="#header">
-                    <img src="/assets/img/footer-up.png" alt="Вверх" class="footer-up__img">
-                    <span class="footer-up__text">в начало</span>
+                <a class="footer__up" href="#header">
+                    <img src="/assets/img/footer-up.png" alt="Вверх" class="footer__up-img">
+                    <span class="footer__up-text">в начало</span>
                 </a>
 
-                <p class="footer-copyrights">Все данные, предоставленные на сайте, запрещены к распространению без согласия владельца.
-                    Долгих Дмитрий Сергеевич, 2022 г.</p>
+                <p class="footer__copyrights">Все данные, предоставленные на сайте, запрещены к распространению без согласия владельца.
+                    Долгих Дмитрий Сергеевич, 2022 г.
+                </p>
+
             </div>
+
         </div>
+
     </footer>
 
     <script src="/assets/js/script.js"></script>
