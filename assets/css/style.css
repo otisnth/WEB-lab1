@@ -1,41 +1,41 @@
 @font-face {
     font-family: 'roboto';
-    src: url(/assets/fonts/Roboto/Roboto-Regular.ttf);
+    src: url(assets/fonts/Roboto/Roboto-Regular.ttf);
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'roboto';
-    src: url(/assets/fonts/Roboto/Roboto-Medium.ttf);
+    src: url(assets/fonts/Roboto/Roboto-Medium.ttf);
     font-style: normal;
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'roboto';
-    src: url(/assets/fonts/Roboto/Roboto-Bold.ttf);
+    src: url(assets/fonts/Roboto/Roboto-Bold.ttf);
     font-style: bold;
     font-weight: 700;
 }
 
 @font-face {
     font-family: 'nunito';
-    src: url(/assets/fonts/Nunito/Nunito-Regular.ttf);
+    src: url(assets/fonts/Nunito/Nunito-Regular.ttf);
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'nunito';
-    src: url(/assets/fonts/Nunito/Nunito-Medium.ttf);
+    src: url(assets/fonts/Nunito/Nunito-Medium.ttf);
     font-style: normal;
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'nunito';
-    src: url(/assets/fonts/Nunito/Nunito-Bold.ttf);
+    src: url(assets/fonts/Nunito/Nunito-Bold.ttf);
     font-style: bold;
     font-weight: 700;
 }
