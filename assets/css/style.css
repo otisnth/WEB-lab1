@@ -485,7 +485,7 @@ header {
     padding-bottom: 42px;
     position: relative;
     width: 1015px;
-    background: url(assets/img/bg-contacts.png) no-repeat;
+    background: url(../img/bg-contacts.png) no-repeat;
 }
 
 .contacts__info::after {
