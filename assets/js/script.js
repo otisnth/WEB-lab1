@@ -15,6 +15,20 @@ document.querySelectorAll('a[href^="#"').forEach(link =>{
 });
 
 
+document.querySelectorAll('.hamburger-menu__button').forEach(hamburgerBtn =>{
+    hamburgerBtn.addEventListener('click', function() {
+        this.classList.toggle('active');
+        this.nextElementSibling.classList.toggle('active');
+
+        this.nextElementSibling.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', function() {
+                this.closest('.hamburger-menu__content').classList.toggle('active');
+                this.closest('.hamburger-menu__content').previousElementSibling.classList.toggle('active');
+            })
+        })
+    })
+});
+
 const counters = document.querySelectorAll('.counter');
 
 counters.forEach((counter) => {
@@ -40,3 +54,4 @@ counters.forEach((counter) => {
   };
   updateCount();
 });
+

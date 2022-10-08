@@ -11,7 +11,7 @@
     
     <header class="header" id="header">
 
-        <div class="header__container">
+        <div class="header-desktop header__container">
 
             <nav class="header__menu menu">
 
@@ -61,6 +61,66 @@
 
         </div>
 
+
+
+        <div class="header-mobile header__container">
+
+            <div class="header__logo">
+                <img src="assets/img/logo.png" alt="Логотип" class="logo">
+            </div>
+
+            <div class="hamburger-menu__button">
+                <div class="hamburger-menu__icon"></div>
+            </div>
+
+            <div class="hamburger-menu__content">
+
+                <nav class="header__menu menu">
+
+                    <ul class="menu__list">
+    
+                        <li class="menu__item">
+                            <a class="menu__link" href="#about-me">Обо мне</a>
+                        </li>
+    
+                        <li class="menu__item">
+                            <a class="menu__link" href="#contacts">Контакты</a>
+                        </li>
+    
+                    </ul>
+    
+                </nav>
+
+                <div class="header__links">
+
+                    <ul class="header__links-list">
+    
+                        <li class="header__links-item">
+                            <a href="https://github.com/otisnth" class="header__links-link">
+                                <img src="assets/img/github.png" alt="GITHub" class="header__links-icon">
+                            </a>
+                        </li>
+    
+                        <li class="header__links-item">
+                            <a href="https://t.me/otisnth" class="header__links-link">
+                                <img src="assets/img/telegram.png" alt="TG" class="header__links-icon">
+                            </a>
+                        </li>
+    
+                        <li class="header__links-item">
+                            <a href="https://vk.com/otisnth" class="header__links-link">
+                                <img src="assets/img/vk.png" alt="VK" class="header__links-icon">
+                            </a>
+                        </li>
+    
+                    </ul>
+    
+                </div>
+
+            </div>
+
+        </div>
+
     </header>
 
 
@@ -70,10 +130,9 @@
 
             <div class="main-section">
 
-                <div class="main-section__info">
+                <div class="main-section__heading">
 
                     <div class="info">
-
                         <p class="info__speciality">
                             ИНЖЕНЕР-программист
                         </p>
@@ -81,16 +140,23 @@
                         <h1 class="info__name">
                             Долгих Дмитрий
                         </h1>
+                    </div>
+
+                </div>
+
+                <div class="main-section__info">
+
+                    <div class="info">
 
                         <p class="info__text">
                             Рад видеть вас на своем сайте! Я студент группы ПИ-20-1. Учусь хорошо и пробую себя в различных сферах программирования, но кроме этого увлекаюсь электроникой и даже умею водить легковой автомобиль.
                         </p>
+
+                        <a href="#about-me" class="info__down">
+                            <img class="info-down__img" src="assets/img/info-down.png" alt="Down">
+                        </a>
                         
                     </div>
-
-                    <a href="#about-me" class="info__down">
-                        <img class="info-down__img" src="assets/img/info-down.png" alt="Down">
-                    </a>
 
                 </div>
 
@@ -109,15 +175,13 @@
 
             <div class="about">
 
-                <div class="about__img">
-                    <img src="assets/img/photo2.png" alt="Фото2">
-                </div>
+                <img class="about__img" src="assets/img/photo2.png" alt="Фото2">
+
+                <h2 class="block__title about__title">обо мне</h2>
 
                 <div class="about__info">
 
                     <div class="info">
-
-                        <h2 class="block__title about__title">обо мне</h2>
 
                         <p class="info__text">Я учусь на 3 курсе по специальности “Разработка программного обеспечения” в ЛГТУ. Интересуюсь разработкой web-приложений и математическим программированием. Умею работать в команде, люблю хорошую музыку и пиццу, а еще говорю на французском.Меня интересует все: я стараюсь постоянно развиваться и открывать для себя новые грани моей профессии... Могу назвать себя счастливым человеком, ведь мне готовы платить за то, что я занимаюсь любимым делом.</p>
 
@@ -170,11 +234,11 @@
 
             <div class="skills">
 
+                <h2 class="block__title skills__title">Мои навыки</h2>
+
                 <div class="skills__info">
 
                     <div class="info">
-
-                        <h2 class="block__title skills__title">Мои навыки</h2>
 
                         <p class="info__text">Обучаясь на кафедре АСУ, я узнал много всего и теперь могу писать desktop-прилложения на C++ и Windows Form с применением Windows API, моделировать работу электричесикх схем в Proteus Professional 8, разрабатывать web-приложения на HTML+CSS+JS. Еще мне удалось попробовать себя в Java!
                             Я знаком со структурами данных и базовыми алгоритмами, Git, умею применять библиотеки для C++ и работать с stl-контейнерами.
@@ -256,7 +320,7 @@
 
                     <ul class="contacts__list">
 
-                        <li class="contacts__item">
+                        <li class="contacts__item contacts__item_phone">
 
                             <span class="contacts__item-type">Phone</span>
 
@@ -264,7 +328,7 @@
 
                         </li>
 
-                        <li class="contacts__item">
+                        <li class="contacts__item contacts__item_tg">
 
                             <span class="contacts__item-type">Telegram</span>
 
@@ -272,7 +336,7 @@
 
                         </li>
 
-                        <li class="contacts__item">
+                        <li class="contacts__item contacts__item_git">
 
                             <span class="contacts__item-type">GIT</span>
 
@@ -280,7 +344,7 @@
 
                         </li>
 
-                        <li class="contacts__item">
+                        <li class="contacts__item contacts__item_mail">
 
                             <span class="contacts__item-type">Mail</span>
 
@@ -288,13 +352,15 @@
 
                         </li>
 
-                        <li class="contacts__item">
+                        <li class="contacts__item contacts__item_vk">
 
                             <span class="contacts__item-type">vk</span>
 
                             <a href="https://vk.com/otisnth" class="contacts__item-link">@otisnth</a>
 
                         </li>
+
+                        <li class="contacts__item contacts__item_empty"></li>
 
                     </ul>
 
