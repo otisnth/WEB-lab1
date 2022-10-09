@@ -22,8 +22,8 @@ document.querySelectorAll('.hamburger-menu__button').forEach(hamburgerBtn =>{
 
         this.nextElementSibling.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', function() {
-                this.closest('.hamburger-menu__content').classList.toggle('active');
-                this.closest('.hamburger-menu__content').previousElementSibling.classList.toggle('active');
+                this.closest('.hamburger-menu__content').classList.remove('active');
+                this.closest('.hamburger-menu__content').previousElementSibling.classList.remove('active');
             })
         })
     })
